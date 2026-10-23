@@ -13,28 +13,23 @@
 
 ## 工具总览
 
-| 工具 | 类型 | 最适合的任务 | 不应单独承担的任务 |
-|---|---|---|---|
-| [Anti-Defensive Writing](https://github.com/Kiterlin/anti-defensive-writing) | Codex Skill | 删除道歉式表达、重复限定和叠加模糊词，增强论文表达 | 文献检索、事实核验、替作者扩大结论 |
-| [ARS-Codex](https://github.com/Imbad0202/academic-research-skills-codex) | Codex Plugin / Skill 套件 | 研究问题、综述、筛选、论文写作、引用检查、同行评审、端到端科研流程 | 保证检索库全覆盖，替代领域数据库或研究者判断 |
-| [Codex Autoresearch](https://github.com/leo-lilinxiao/codex-autoresearch) | Codex Skill | 围绕数值指标自动执行“修改—验证—保留/回退”实验循环 | 无法量化的理论判断、开放式文献综述、不可复现实验 |
-| [Undermind](https://www.undermind.ai/) | 在线文献研究平台 | 复杂自然语言问题、深度文献发现、全文工作区、引用追踪 | 作为系统综述的唯一检索源 |
-| [Elicit](https://elicit.com/) | 在线文献研究平台 | 语义检索、论文筛选、结构化数据提取、研究报告 | 替代完整数据库检索协议和人工全文核验 |
-| [Consensus](https://consensus.app/) | AI 学术搜索平台 | 从同行评议研究中检索、综合证据、查看研究快照和证据倾向 | 把聚合答案当作最终结论，跳过原文核验 |
-| [Connected Papers](https://www.connectedpapers.com/) | 论文关系可视化 | 从一篇种子论文生成相似论文图，寻找先行与后续工作 | 关键词数据库检索或完整引文树 |
-| [ResearchRabbit](https://www.researchrabbit.ai/) | 文献发现与关系图谱 | 迭代收藏、个性化推荐、论文/作者/主题关系探索 | 可复现数据库检索协议 |
-| [Litmaps](https://www.litmaps.com/) | 引文网络与文献监测 | 从种子文献扩展引文网络、制作 Litmap、监测新论文 | 单独证明综述检索完整 |
+GitHub Star 为 **2026-10-23 快照**，会随时间变化。“—”表示该工具不是以 GitHub 开源仓库为主要入口。新增 Skill 项目的筛选标准是：仓库公开可访问、提供可复用的 `SKILL.md` 或科研 Agent Skill 集合、能直接服务于文献检索、实验、论文写作、引用核验或同行评审，并具有较高社区关注度或在细分领域有较完整覆盖。
 
-## 新增：GitHub 高 Star 科研论文 Skill 项目
-
-以下 Star 数为 **2026-10-23 快照**，会随时间变化。筛选标准是：仓库公开可访问、提供可复用的 `SKILL.md` 或科研 Agent Skill 集合、能直接服务于文献检索/实验/论文写作/引用核验/同行评审，并具有较高社区关注度或在细分领域有较完整覆盖。
-
-| 项目 | Star 快照 | 适合任务 | 详细说明 |
-|---|---:|---|---|
-| [Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 54,129 | 177 个科研 Skill，覆盖领域分析、数据库、文献、写作、引用和可视化 | [单独文件](skills/scientific-agent-skills.md) |
-| [Claude Scientific Writer](https://github.com/K-Dense-AI/claude-scientific-writer) | 2,516 | 检索驱动的论文、综述、基金、海报生成，支持 CLI/API | [单独文件](skills/claude-scientific-writer.md) |
-| [Open Scholar Skill](https://github.com/joshzyj/open-scholar-skill) | 177 | 社会科学研究、理论与方法、写作、核验、投稿和伦理 | [单独文件](skills/open-scholar-skill.md) |
-| [Research Agent Skills](https://github.com/KalarisLabs/research-agent-skills) | 58 | 280+ 个跨学科 Skill，覆盖综述、实验、统计、写作与评审 | [单独文件](skills/research-agent-skills.md) |
+| 工具 | 类型 | Star 快照 | 最适合的任务 | 不应单独承担的任务 | 详细说明 |
+|---|---|---:|---|---|---|
+| [Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Agent Skill 集合 | 54,129 | 177 个科研 Skill，覆盖领域分析、数据库、文献、写作、引用和可视化 | 不经审查一次性安装全部 Skill；替代领域专家核验 | [单独文件](skills/scientific-agent-skills.md) |
+| [ARS-Codex](https://github.com/Imbad0202/academic-research-skills-codex) | Codex Plugin / Skill 套件 | 13,393 | 研究问题、综述、筛选、论文写作、引用检查、同行评审、端到端科研流程 | 保证检索库全覆盖，替代领域数据库或研究者判断 | [单独文件](skills/academic-research-skills-codex.md) |
+| [Codex Autoresearch](https://github.com/leo-lilinxiao/codex-autoresearch) | Codex Skill | 3,007 | 围绕数值指标自动执行“修改—验证—保留/回退”实验循环 | 无法量化的理论判断、开放式文献综述、不可复现实验 | [单独文件](skills/codex-autoresearch.md) |
+| [Claude Scientific Writer](https://github.com/K-Dense-AI/claude-scientific-writer) | 科研写作工具 / Skills | 2,516 | 检索驱动的论文、综述、基金、海报生成，支持 CLI/API | 未经核验直接投稿或补造实验结果 | [单独文件](skills/claude-scientific-writer.md) |
+| [Anti-Defensive Writing](https://github.com/Kiterlin/anti-defensive-writing) | Codex Skill | 1,331 | 删除道歉式表达、重复限定和叠加模糊词，增强论文表达 | 文献检索、事实核验、替作者扩大结论 | [单独文件](skills/anti-defensive-writing.md) |
+| [Open Scholar Skill](https://github.com/joshzyj/open-scholar-skill) | 学术研究 Skill 集合 | 177 | 社会科学研究、理论与方法、写作、核验、投稿和伦理 | 无条件商业使用；替代作者的理论和因果识别决策 | [单独文件](skills/open-scholar-skill.md) |
+| [Research Agent Skills](https://github.com/KalarisLabs/research-agent-skills) | Agent Skill 集合 | 58 | 280+ 个跨学科 Skill，覆盖综述、实验、统计、写作与评审 | 默认安装全部 Skill；跳过依赖、许可和脚本审查 | [单独文件](skills/research-agent-skills.md) |
+| [Undermind](https://www.undermind.ai/) | 在线文献研究平台 | — | 复杂自然语言问题、深度文献发现、全文工作区、引用追踪 | 作为系统综述的唯一检索源 | [正文](#4-undermind) |
+| [Elicit](https://elicit.com/) | 在线文献研究平台 | — | 语义检索、论文筛选、结构化数据提取、研究报告 | 替代完整数据库检索协议和人工全文核验 | [正文](#5-elicit) |
+| [Consensus](https://consensus.app/) | AI 学术搜索平台 | — | 从同行评议研究中检索、综合证据、查看研究快照和证据倾向 | 把聚合答案当作最终结论，跳过原文核验 | [正文](#6-consensus) |
+| [Connected Papers](https://www.connectedpapers.com/) | 论文关系可视化 | — | 从一篇种子论文生成相似论文图，寻找先行与后续工作 | 关键词数据库检索或完整引文树 | [正文](#connected-papers) |
+| [ResearchRabbit](https://www.researchrabbit.ai/) | 文献发现与关系图谱 | — | 迭代收藏、个性化推荐、论文/作者/主题关系探索 | 可复现数据库检索协议 | [正文](#researchrabbit) |
+| [Litmaps](https://www.litmaps.com/) | 引文网络与文献监测 | — | 从种子文献扩展引文网络、制作 Litmap、监测新论文 | 单独证明综述检索完整 | [正文](#litmaps) |
 
 Star 只反映关注度，不等于方法质量、安全性或结果可靠性。安装任何 Skill 前应审查 `SKILL.md`、脚本、网络访问、凭据需求、许可证和第三方声明；进行中的科研项目还应固定 release tag 或 commit SHA。
 
