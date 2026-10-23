@@ -25,6 +25,19 @@
 | [ResearchRabbit](https://www.researchrabbit.ai/) | 文献发现与关系图谱 | 迭代收藏、个性化推荐、论文/作者/主题关系探索 | 可复现数据库检索协议 |
 | [Litmaps](https://www.litmaps.com/) | 引文网络与文献监测 | 从种子文献扩展引文网络、制作 Litmap、监测新论文 | 单独证明综述检索完整 |
 
+## 新增：GitHub 高 Star 科研论文 Skill 项目
+
+以下 Star 数为 **2026-10-23 快照**，会随时间变化。筛选标准是：仓库公开可访问、提供可复用的 `SKILL.md` 或科研 Agent Skill 集合、能直接服务于文献检索/实验/论文写作/引用核验/同行评审，并具有较高社区关注度或在细分领域有较完整覆盖。
+
+| 项目 | Star 快照 | 适合任务 | 详细说明 |
+|---|---:|---|---|
+| [Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 54,129 | 177 个科研 Skill，覆盖领域分析、数据库、文献、写作、引用和可视化 | [单独文件](skills/scientific-agent-skills.md) |
+| [Claude Scientific Writer](https://github.com/K-Dense-AI/claude-scientific-writer) | 2,516 | 检索驱动的论文、综述、基金、海报生成，支持 CLI/API | [单独文件](skills/claude-scientific-writer.md) |
+| [Open Scholar Skill](https://github.com/joshzyj/open-scholar-skill) | 177 | 社会科学研究、理论与方法、写作、核验、投稿和伦理 | [单独文件](skills/open-scholar-skill.md) |
+| [Research Agent Skills](https://github.com/KalarisLabs/research-agent-skills) | 58 | 280+ 个跨学科 Skill，覆盖综述、实验、统计、写作与评审 | [单独文件](skills/research-agent-skills.md) |
+
+Star 只反映关注度，不等于方法质量、安全性或结果可靠性。安装任何 Skill 前应审查 `SKILL.md`、脚本、网络访问、凭据需求、许可证和第三方声明；进行中的科研项目还应固定 release tag 或 commit SHA。
+
 ## 1. Anti-Defensive Writing
 
 项目地址：<https://github.com/Kiterlin/anti-defensive-writing>
